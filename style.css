@@ -1,0 +1,168 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: Roboto;
+}
+
+h1 {
+    margin: 0;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.first-section {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.header, .hero-content, .quote-div, .callout {
+    width: 80vw;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin:0;
+    gap: 3vw;
+}
+
+.hero-content {
+    display: flex;
+    margin: 5%;
+}
+
+.hero-text {
+    flex:1;
+}
+
+.hero-image {
+    background-color: aliceblue;
+    flex:1;
+    margin-left: 10vw;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: none;
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.card img {
+    height: 250px;
+    width: 250px;
+    background-color: #1F2937;
+}
+
+.second-section {
+    text-align: center;
+    padding: 5vh;
+    margin-bottom: 5vh;
+}
+
+.secondary-content {
+    display: flex;
+    justify-content: center;
+    gap:3vw;
+}
+
+.card p {
+    width: 250px;
+    font-size: 16px;
+    text-align:justify;
+    text-align-last: center;
+}
+
+.card h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    padding: 5px;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+}
+
+.callout {
+    background-color: #3882F6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.callout-text h4 {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.callout-text p {
+    margin: 0;
+    font-weight: 100;
+}
+
+.callout-button {
+    border: 2px solid #f9faf8;
+    padding: 10px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 10px;
+}
