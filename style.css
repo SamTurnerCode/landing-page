@@ -45,6 +45,7 @@ h1 {
 .hero-content {
     display: flex;
     margin: 5%;
+    align-items: center;
 }
 
 .hero-text {
@@ -55,6 +56,7 @@ h1 {
     background-color: aliceblue;
     flex:1;
     margin-left: 10vw;
+    height: 400px;
 }
 
 .hero-text button {
