@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
     margin: 0;
-    font-family: Roboto;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 h1 {
@@ -26,12 +26,20 @@ h1 {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 20px
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-logo img {
+    width: 70px;
 }
 
 .header ul {
@@ -53,10 +61,13 @@ h1 {
 }
 
 .hero-image {
-    background-color: aliceblue;
     flex:1;
     margin-left: 10vw;
-    height: 400px;
+    
+}
+
+.hero-image img {
+    width: 400px;
 }
 
 .hero-text button {
@@ -77,6 +88,10 @@ h1 {
 .second-section {
     text-align: center;
     padding: 5vh;
+    margin-bottom: 5vh;
+}
+
+.secondary-heading {
     margin-bottom: 5vh;
 }
 
